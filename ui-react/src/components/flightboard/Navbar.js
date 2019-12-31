@@ -18,7 +18,7 @@ class Navbar extends Component {
           <div className="title-bar-left">
             <ul className="horizontal menu fb__nav-menu">
               <li>
-                <img src="img/logo.png" alt="Logo" />
+                <img src="img/logo.svg" alt="Logo" />
               </li>
               <li>
                 <span id="fb__navbar-title">{config.navbar.title}</span>

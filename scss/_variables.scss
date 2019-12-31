@@ -4,19 +4,22 @@ $primary: #455975;
 $yellow: #ffae00;
 $green: #3adb76;
 $greenDark: #289952;
-$gray: #474747;
-$grayDark: #333;
+$gray: #2f4752;
+$grayDark: #192d35;
 $grayLightest: #eceef1;
 $grayLight: #d4d6d8;
-$red: #f04124;
+$red: #dc5553;
 $orange: #f3840e;
 
 // font colors -----------------------------------------------------------------
-$primaryFont: #ffffff;
+//$primaryFont: #ffffff;
+$primaryFont: #ebeadc;
 
 // area specific colors --------------------------------------------------------
 // body +++++++++++++++++++++++++++++++++++++++++++++++++
-$bodyBackground: #191919;
+//$bodyBackground: #191919;
+//$bodyBackground: #ebeadc;
+$bodyBackground: #2f4752;
 
 // cards ++++++++++++++++++++++++++++++++++++++++++++++++
 $cardBackground: $grayDark;
@@ -25,5 +28,5 @@ $cardBorder: $gray;
 // title bar ++++++++++++++++++++++++++++++++++++++++++++
 $titleBarBackground: $grayDark;
 $titleBarBottomBorder: $gray;
-$titleBarButton: #ffffff;
+$titleBarButton: #ebeadc;
 $titleBarLiBorder: $gray;

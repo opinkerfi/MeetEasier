@@ -1,17 +1,17 @@
 module.exports = {
   'board' : {
-    'nextUp' : 'Next Up',
-    'statusAvailable' : 'Open',
-    'statusBusy' : 'Busy',
-    'statusError' : 'Error'
+    'nextUp' : 'Næsti fundur',
+    'statusAvailable' : 'Laust',
+    'statusBusy' : 'Upptekið',
+    'statusError' : 'Villa'
   },
 
   'navbar' : {
-    'title' : 'Conference Room Availability',
+    'title' : 'Staða fundarherbergja',
   },
 
   'roomFilter' : {
-    'filterTitle' : 'Locations',
-    'filterAllTitle' : 'All Conference Rooms',
+    'filterTitle' : 'Staðsetningar',
+    'filterAllTitle' : 'Öll fundarherbergi',
   },
 };

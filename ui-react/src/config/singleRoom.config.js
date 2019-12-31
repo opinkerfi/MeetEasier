@@ -1,6 +1,7 @@
 module.exports = {
-  'nextUp' : 'Next Up',
-  'statusAvailable' : 'Open',
-  'statusBusy' : 'Busy',
-  'upcomingTitle' : 'Upcoming',
+  'nextUp' : 'Næsti fundur',
+  'statusAvailable' : 'Laust',
+  'statusBusy' : 'Upptekið',
+  'upcomingTitle' : 'Á döfinni',
+  'wifiTitle' : 'Wifi',
 };

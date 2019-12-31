@@ -14,8 +14,8 @@ html {
   width: 100%; }
 
 body {
-  color: #ffffff;
-  background-color: #191919; }
+  color: #ebeadc;
+  background-color: #2f4752; }
 
 .credentials-error {
   text-align: center; }
@@ -31,9 +31,9 @@ body {
   max-width: 99%; }
 
 .title-bar {
-  background: #333;
+  background: #192d35;
   padding: 0;
-  border-bottom: 1px solid #474747; }
+  border-bottom: 1px solid #2f4752; }
 
 .title-bar-title {
   padding-left: 25px; }
@@ -47,12 +47,12 @@ body {
   padding-right: 8px; }
 
 .fb__nav-menu a {
-  color: #ffffff; }
+  color: #ebeadc; }
 .fb__nav-menu li {
   text-transform: uppercase;
   font-size: 1.3vw;
   line-height: 2;
-  color: #ffffff;
+  color: #ebeadc;
   padding: 8px 30px; }
 .fb__nav-menu img {
   max-height: 70px; }
@@ -67,22 +67,22 @@ body {
       min-width: 250px;
       font-size: 12px;
       padding: 0.7rem 1rem;
-      color: #474747 !important;
+      color: #2f4752 !important;
       cursor: pointer; }
       .fb__nav-menu .fb__dropdown li .fb__child-dropdown li a {
-        color: #474747 !important; }
+        color: #2f4752 !important; }
 
 .fb__nav-menu-right li {
   text-transform: uppercase;
   padding: 8px 30px;
-  border-left: 1px solid #474747;
-  color: #ffffff;
+  border-left: 1px solid #2f4752;
+  color: #ebeadc;
   font-size: 28px;
   line-height: 2; }
 .fb__nav-menu-right li:first-child {
   border: 0; }
 .fb__nav-menu-right li:first-child:hover {
-  background: #333; }
+  background: #192d35; }
 
 .fb__nav-menu li:hover,
 .fb__nav-menu-right li:hover {
@@ -90,7 +90,7 @@ body {
 
 .fb__menu-button,
 .fb__menu-button a {
-  color: #ffffff;
+  color: #ebeadc;
   font-size: 36px; }
 
 .row-padder {
@@ -106,14 +106,14 @@ body {
   max-width: initial; }
 
 .meeting-room {
-  border: 1px solid #474747;
+  border: 1px solid #2f4752;
   border-left: 8px solid #3adb76;
   width: 100%;
-  background-color: #333;
+  background-color: #192d35;
   padding: 10px 50px; }
   .meeting-room .meeting-busy {
     font-size: 24px;
-    color: #f04124; }
+    color: #dc5553; }
   .meeting-room .meeting-open {
     font-size: 24px;
     color: #3adb76; }
@@ -125,7 +125,7 @@ body {
     color: #f3840e; }
   .meeting-room .meeting-room__name {
     font-size: 30px;
-    color: #eceef1; }
+    color: #ebeadc; }
   .meeting-room .meeting-room__name:first-letter {
     text-transform: uppercase; }
   .meeting-room .meeting-subject {
@@ -134,12 +134,12 @@ body {
     color: #d4d6d8; }
   .meeting-room .meeting-fullscreen a {
     font-size: 36px;
-    color: #d4d6d8; }
+    color: #ebeadc; }
     .meeting-room .meeting-fullscreen a:hover {
       color: white; }
 
 .meeting-room-busy {
-  border-left: 8px solid #f04124 !important; }
+  border-left: 8px solid #dc5553 !important; }
 
 .meeting-room-error {
   border-left: 8px solid #f3840e !important; }
@@ -174,7 +174,7 @@ body {
         font-size: 1.6vw;
         font-weight: lighter; }
     #single-room__wrap .full-height .busy {
-      background: #f04124; }
+      background: #dc5553; }
     #single-room__wrap .full-height .open {
       background: #289952; }
     #single-room__wrap .full-height .right-col {
@@ -190,7 +190,7 @@ body {
             font-size: 4vw; }
           #single-room__wrap .full-height .right-col #single-room__clock-wrap #single-room__clock #single-room__date {
             font-size: 2.7vw;
-            color: #474747; }
+            color: #2f4752; }
       #single-room__wrap .full-height .right-col #upcoming-title {
         font-size: 2.2vw;
         text-transform: uppercase;
@@ -203,7 +203,7 @@ body {
           font-size: 1.1vw; }
         #single-room__wrap .full-height .right-col table tr td.up__meeting-time {
           font-size: 0.9vw;
-          color: #474747; }
+          color: #2f4752; }
   #single-room__wrap #error-wrap {
     width: 600px;
     margin: 0 auto;
