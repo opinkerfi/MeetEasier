@@ -8,7 +8,7 @@ h4,
 h5,
 h6,
 #app {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 body,
@@ -123,11 +123,11 @@ body {
 
 .fb__nav-menu li:hover,
 .fb__nav-menu-right li:hover {
-  background-color: rgba(69, 89, 117, .1);
+  background-color: rgba(69, 89, 117, 0.1);
 }
 
 .fb__menu-button,
-.fb__menu-button a{
+.fb__menu-button a {
   color: $titleBarButton;
   font-size: 36px;
 }
@@ -195,15 +195,14 @@ body {
     color: $grayLight;
   }
 
-  .meeting-start, .meeting-end {
-
+  .meeting-start,
+  .meeting-end {
   }
 
   .meeting-organizer {
-
   }
 
-  .meeting-fullscreen a{
+  .meeting-fullscreen a {
     font-size: 36px;
     //color: $grayLight;
     color: $primaryFont;
@@ -297,7 +296,6 @@ body {
             color: $gray;
           }
         }
-
       }
 
       #upcoming-title {
@@ -326,7 +324,6 @@ body {
       }
 
       .upcoming-item {
-
       }
     }
   }
@@ -354,12 +351,44 @@ body {
     width: 100%;
 
     > .columns {
-        display: table-cell;
-        vertical-align: middle;
+      display: table-cell;
+      vertical-align: middle;
     }
 
-    > .columns, > [class*="column"] + [class*="column"]:last-child {
-        float: none;
+    > .columns,
+    > [class*="column"] + [class*="column"]:last-child {
+      float: none;
     }
   }
+}
+
+#single-room__wifi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  bottom: 8px;
+  right: 16px;
+}
+#single-room__wifi-title {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.8vw;
+  font-weight: lighter;
+  width: 100%;
+}
+
+#single-room__wifi-text {
+  display: inline-block;
+  padding-left: 0.5em;
+  width: 100%;
+}
+#single-room__wifi-image {
+  display: inline-block;
+  flex: 1;
+  padding-bottom: 8px;
+  padding-left: 0.5em;
+  max-height: 150px;
+  max-width: 150px;
+  align-content: flex-start;
 }
