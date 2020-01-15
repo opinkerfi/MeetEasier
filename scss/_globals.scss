@@ -282,7 +282,7 @@ body {
       color: black;
 
       #single-room__clock-wrap {
-        padding-bottom: 80px;
+        padding-bottom: 8px;
         font-weight: lighter;
 
         #single-room__clock {
@@ -373,9 +373,10 @@ body {
 #single-room__wifi-title {
   text-transform: uppercase;
   text-align: left;
-  font-size: 1.8vw;
+  font-size: 2.2vw;
   font-weight: lighter;
   width: 100%;
+  padding-bottom: 10px;
 }
 
 #single-room__wifi-text {

@@ -6,9 +6,7 @@ class Wifi extends Component {
   render() {
     return (
       <div id="single-room__wifi">
-        <div id="single-room__wifi-title">
-          <h2>{config.wifiTitle}</h2>
-        </div>
+        <div id="single-room__wifi-title">{config.wifiTitle}</div>
         <img id="single-room__wifi-image" src={wifiqr} alt="Wifi Code" />
         <div id="single-room__wifi-text">
           <p>Wifi: OpinKerfi-Guest</p>
