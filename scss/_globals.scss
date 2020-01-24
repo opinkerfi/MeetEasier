@@ -1,5 +1,4 @@
 // globals
-
 body,
 h1,
 h2,
@@ -15,6 +14,7 @@ body,
 html {
   height: 100%;
   width: 100%;
+  background-color: #fff;
 }
 
 body {
@@ -370,6 +370,7 @@ body {
   bottom: 8px;
   right: 16px;
 }
+
 #single-room__wifi-title {
   text-transform: uppercase;
   text-align: left;
@@ -392,4 +393,47 @@ body {
   max-height: 150px;
   max-width: 150px;
   align-content: flex-start;
+}
+
+@media (max-width: 899px) {
+  #single-room__wrap .full-height .columns {
+    height: 50vh!important;
+  }
+
+  .small-1 {
+    width: 100%;
+  }
+  .small-2 {
+    width: 100%;
+  }
+  .small-3 {
+    width: 100%;
+  }
+  .small-4 {
+    width: 100%;
+  }
+  .small-5 {
+    width: 100%;
+  }
+  .small-6 {
+    width: 100%;
+  }
+  .small-7 {
+    width: 100%;
+  }
+  .small-8 {
+    width: 100%;
+  }
+  .small-9 {
+    width: 100%;
+  }
+  .small-10 {
+    width: 100%;
+  }
+  .small-11 {
+    width: 100%;
+  }
+  .small-12 {
+    width: 100%;
+  }
 }
